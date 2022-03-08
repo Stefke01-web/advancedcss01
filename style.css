@@ -1,0 +1,27 @@
+a[href^="https://www.google.com"] {
+    color:green
+}
+
+a[target] {
+    color:red;
+}
+
+ #first-div > p::after {
+        content: "NEW";
+        color:yellow;
+    }
+
+#second-div
+    p:nth-child(even) {
+        color:red;
+    }
+
+#second-div
+    p:nth-child(odd) {
+        color:blue;
+    }
+
+
+p:nth-child(8):hover {
+        font-style:italic;
+    }
